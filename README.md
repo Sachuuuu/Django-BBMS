@@ -59,7 +59,7 @@ curl -X GET \
   -H 'postman-token: d0df389d-d966-3522-e3f1-c5cbfda1dd7d'
 ```
 
-### View full Score card
+### View full Score card (log in as a coach/admin/player before running bellow curl)
 
 ```
 curl -X GET \
@@ -68,7 +68,7 @@ curl -X GET \
   -H 'postman-token: 2b41c9b7-ffe0-f5d6-d27b-ee763962be60'
 ```
 
-### View team stat as a coach
+### View team stat as a coach (log in as a coach before running bellow curl)
 
 ```
 curl -X GET \
@@ -77,7 +77,7 @@ curl -X GET \
   -H 'postman-token: 40e4f4e2-82cb-38f9-60de-6056eae5b8c1'
 ```
 
-### View best players of the team (90%)
+### View best players of the team (90%) [log in as a coach before running bellow curl]
 
 ```
 curl -X GET \
@@ -86,7 +86,7 @@ curl -X GET \
   -H 'postman-token: f8cdd871-680c-d9d3-328b-502ebac91e77'
 ```
 
-### Admin checking all user stats(login and logout)
+### Admin checking all user stats(login and logout) [log in as a admin before running bellow curl]
 
 ```
 curl -X GET \
@@ -95,7 +95,7 @@ curl -X GET \
   -H 'postman-token: 4db0c1c5-9d8a-a9f4-1615-7ced1a61245d'
 ```
 
-### Admin checking a specific user's stats(login and logout)
+### Admin checking a specific user's stats(login and logout) [log in as a admin before running bellow curl]
 
 ```
 curl -X POST \
