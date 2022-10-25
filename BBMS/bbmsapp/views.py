@@ -134,6 +134,7 @@ def view_user_records(request):
     records = json.dumps(records)
     return HttpResponse(records, content_type="application/json")
 
+@login_required
 def bestplayers(request):
     if not Coach.objects.filter(name=request.user):
         return HttpResponseForbidden()
@@ -155,7 +156,5 @@ def bestplayers(request):
     resp = {
         'players' : player_list
     }
-    print("=============")
-    print(resp)
     resp = json.dumps(resp)
     return HttpResponse(resp, content_type="application/json")
