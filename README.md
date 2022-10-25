@@ -7,6 +7,7 @@ until one team was crowned as champion.
 Each team consists of a coach and 10 players. not all players participate in every
 game.
 There are 3 types of users in the system - the league admin, a coach, and a player.
+
 ● All 3 types of users can login to the site and logout. Upon login they will view the
 scoreboard, which will display all games and final scores, and will reflect how the
 competition progressed and who won.
