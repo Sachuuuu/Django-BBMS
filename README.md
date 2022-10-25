@@ -30,7 +30,7 @@ and who is currently online. (i.e. logged into the site)
 # Follow below steps to setup
 1. python manage.py makemigrations
 2. python manage.py migrate
-3. python manage.py createsuperuser [set username = admin, pasxword = admin]
+3. python manage.py createsuperuser [set username = admin, password = admin]
 4. python manage.py create_data
 5. python manage.py  runserver
 
